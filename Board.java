@@ -7,7 +7,7 @@ public class Board {
 	public Board(){
 		Scanner sc = new Scanner(System.in);
 		int i, j;
-		dimension = 3;
+		dimension = 3; /* keeping n = 3 here. if for any other n, just change this value*/
 		tiles = new int[dimension][dimension];
 		
 		System.out.println("Enter the starting state of the board");
