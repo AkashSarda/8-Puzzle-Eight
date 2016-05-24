@@ -8,7 +8,7 @@ public class Board {
 		Scanner sc = new Scanner(System.in);
 		int i, j;
 		dimension = 3;
-		tiles = new int[3][3];
+		tiles = new int[dimension][dimension];
 		
 		System.out.println("Enter the starting state of the board");
 		
